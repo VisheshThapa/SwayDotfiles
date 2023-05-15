@@ -57,7 +57,7 @@
 
   "cpu": {
     "interval": 10,
-    "format": "{:0.0f}% ",
+    "format": "{usage}% ",
     "max-length": 10
 },
 "memory": {

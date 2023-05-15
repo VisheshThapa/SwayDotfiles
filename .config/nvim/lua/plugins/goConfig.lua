@@ -4,6 +4,7 @@ return {
     opts = {
       ensure_installed = {
         "gopls",
+        "rust-analyzer",
       },
     },
   },
@@ -13,6 +14,7 @@ return {
       -- add tsx and treesitter
       vim.list_extend(opts.ensure_installed, {
         "go",
+        "rust",
       })
     end,
   },
