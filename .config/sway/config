@@ -218,8 +218,24 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 ########### GAP CONFIG
+set $bg 	#d65d0e
+set $bg-inactive   #323232
+set $bg-urgent     #000000
+set $text          #eeeeec
+set $text-inactive #babdb6
 
-default_border none
+set $bar           #323232
+set $statusline    #e0e0e0
+
+client.focused          $bg           $bg          $text          $bg $bg
+client.unfocused        $bg-inactive  $bg-inactive $text-inactive $bar $bar
+client.focused_inactive $bg-inactive  $bg-inactive $text-inactive $bar $bar
+client.urgent           $bg-urgent    $bg-urgent   $text          $bar $bar
+
+default_border pixel 2
+default_floating_border pixel 2
+smart_borders on
+
 
 # Configure 5px of space between windows and to the screen edges.
 gaps inner 5
@@ -234,12 +250,13 @@ smart_gaps on
 ############# GAP CONFIG END
 
 ######### start discord and firefox
-exec --no-startup-id swaymsg 'workspace 4; exec flatpak run com.discordapp.Discord;'
+exec --no-startup-id swaymsg 'exec flatpak run com.discordapp.Discord;'
 exec --no-startup-id swaymsg 'workspace 1; exec firefox;'
 
 for_window [class="discord"] move to workspace 4
 for_window [class="Spotify"] move to workspace 5
 
+bindsym XF86TouchpadToggle input type:touchpad events toggle enabled disabled
 ######
 # Include configs from 3 locations:
 #  - /usr/share/sway/config.d

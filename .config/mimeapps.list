@@ -1,0 +1,9 @@
+[Default Applications]
+application/zip=xarchiver.desktop
+application/x-tar=thunar-settings.desktop
+
+[Added Associations]
+application/zip=xarchiver.desktop;thunar.desktop;
+application/x-tar=thunar-settings.desktop;
+application/pdf=firefox.desktop;libreoffice-startcenter.desktop;
+application/vnd.oasis.opendocument.graphics=libreoffice-writer.desktop;

@@ -5,6 +5,7 @@ return {
       ensure_installed = {
         "gopls",
         "rust-analyzer",
+        "pyright",
       },
     },
   },
