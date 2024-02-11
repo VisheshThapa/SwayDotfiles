@@ -2,7 +2,6 @@
 
 [Enable Non Free](https://docs.fedoraproject.org/en-US/quick-docs/rpmfusion-setup/)
 
-[Rofi](https://github.com/adi1090x/rofi)
 
 My Sway Dot Files for Fedora Linux
 
@@ -18,6 +17,8 @@ flatpak install flathub com.spotify.Client -y
 flatpak install flathub com.valvesoftware.Steam -y
 flatpak install flathub com.obsproject.Studio -y
 ```
+[Rofi](https://github.com/adi1090x/rofi)
+
 Programming Langugaes: 
 
 [Go](https://developer.fedoraproject.org/tech/languages/go/go-installation.html)
