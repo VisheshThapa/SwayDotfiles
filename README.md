@@ -1,13 +1,13 @@
 # SwayDotfiles
 
 [Enable Non Free](https://docs.fedoraproject.org/en-US/quick-docs/rpmfusion-setup/)
-
+[Rofi](https://github.com/adi1090x/rofi)
 My Sway Dot Files for Fedora Linux
 
 Downloads: Termial and IDE:
 ```sudo dnf update
 sudo dnf install ffmpeg --allowerasing -y
-sudo dnf install alacritty neovim flatpak npm kdenlive vlc -y
+sudo dnf install alacritty neovim rofi flatpak npm kdenlive vlc -y
 ```
 Flatpaks
 ```
