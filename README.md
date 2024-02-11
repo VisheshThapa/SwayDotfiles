@@ -8,6 +8,6 @@ Downloads: Termial and IDE:
 [Enable Non Free](https://docs.fedoraproject.org/en-US/quick-docs/rpmfusion-setup/)
 `sudo dnf install vlc ffmpeg`
 
-`flatpak install flathub com.discordapp.Discord`
-`flatpak install flathub com.spotify.Client`
-`flatpak install flathub com.valvesoftware.Steam`
+`flatpak install flathub com.discordapp.Discord
+flatpak install flathub com.spotify.Client
+flatpak install flathub com.valvesoftware.Steam`
