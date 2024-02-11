@@ -16,6 +16,8 @@ flatpak install flathub com.discordapp.Discord -y
 flatpak install flathub com.spotify.Client -y
 flatpak install flathub com.valvesoftware.Steam -y
 flatpak install flathub com.obsproject.Studio -y
+flatpak install flathub org.gimp.GIMP -y
+flatpak install flathub com.brave.Browser -y
 ```
 [Rofi](https://github.com/adi1090x/rofi)
 
