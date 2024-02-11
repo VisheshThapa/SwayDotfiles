@@ -7,11 +7,15 @@ My Sway Dot Files for Fedora Linux
 Downloads: Termial and IDE:
 ```sudo dnf update
 sudo dnf install ffmpeg --allowerasing -y
-sudo dnf install alacritty neovim flatpak kdenlive vlc -y
+sudo dnf install alacritty neovim flatpak npm kdenlive vlc -y
 ```
 Flatpaks
 ```
-flatpak install flathub com.discordapp.Discord
-flatpak install flathub com.spotify.Client
-flatpak install flathub com.valvesoftware.Steam
+flatpak install flathub com.discordapp.Discord -y
+flatpak install flathub com.spotify.Client -y
+flatpak install flathub com.valvesoftware.Steam -y
+flatpak install flathub com.obsproject.Studio -y
 ```
+Programming Langugaes: 
+[Go](https://developer.fedoraproject.org/tech/languages/go/go-installation.html)
+[Rust](https://www.rust-lang.org/tools/install)
