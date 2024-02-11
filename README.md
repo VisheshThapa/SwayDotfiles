@@ -8,7 +8,10 @@ Downloads: Termial and IDE:
 ```sudo dnf update
 sudo dnf install vlc ffmpeg
 sudo dnf install alacritty neovim flatpak kdenlive vlc ffmpeg
-
+```
+Flatpaks
+```
 flatpak install flathub com.discordapp.Discord
 flatpak install flathub com.spotify.Client
-flatpak install flathub com.valvesoftware.Steam```
+flatpak install flathub com.valvesoftware.Steam
+```
