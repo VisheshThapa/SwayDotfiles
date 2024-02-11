@@ -1,7 +1,9 @@
 # SwayDotfiles
 
 [Enable Non Free](https://docs.fedoraproject.org/en-US/quick-docs/rpmfusion-setup/)
+
 [Rofi](https://github.com/adi1090x/rofi)
+
 My Sway Dot Files for Fedora Linux
 
 Downloads: Termial and IDE:
