@@ -6,8 +6,8 @@ My Sway Dot Files for Fedora Linux
 
 Downloads: Termial and IDE:
 ```sudo dnf update
-sudo dnf install vlc ffmpeg
-sudo dnf install alacritty neovim flatpak kdenlive vlc ffmpeg
+sudo dnf install ffmpeg --allowerasing -y
+sudo dnf install alacritty neovim flatpak kdenlive vlc -y
 ```
 Flatpaks
 ```
