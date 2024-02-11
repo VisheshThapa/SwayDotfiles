@@ -19,5 +19,7 @@ flatpak install flathub com.valvesoftware.Steam -y
 flatpak install flathub com.obsproject.Studio -y
 ```
 Programming Langugaes: 
+
 [Go](https://developer.fedoraproject.org/tech/languages/go/go-installation.html)
+
 [Rust](https://www.rust-lang.org/tools/install)
