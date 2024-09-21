@@ -27,9 +27,7 @@ unset rc
 
 alias nvchad='NVIM_APPNAME=nvchad nvim'
 alias lzvim='NVIM_APPNAME=lzvim nvim'
-
 . "$HOME/.cargo/env"
-
 export PATH=$PATH:/usr/local/go/bin
 alias stripe='~/.stripeCLI/stripe'
 export FLYCTL_INSTALL="/home/vish/.fly"
