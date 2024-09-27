@@ -27,6 +27,7 @@ unset rc
 
 alias nvchad='NVIM_APPNAME=nvchad nvim'
 alias lzvim='NVIM_APPNAME=lzvim nvim'
+alias davinci='LD_PRELOAD="/usr/lib64/libgio-2.0.so /usr/lib64/libgmodule-2.0.so /usr/lib64/libglib-2.0.so" /opt/resolve/bin/resolve'
 . "$HOME/.cargo/env"
 export PATH=$PATH:/usr/local/go/bin
 alias stripe='~/.stripeCLI/stripe'
